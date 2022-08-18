@@ -44,7 +44,7 @@ cd my-project
 ### 🛠️ Build with `wasm-pack build`
 
 ```
-wasm-pack build
+CC=emcc AR=emar wasm-pack build
 ```
 
 ### 🔬 Test in Headless Browsers with `wasm-pack test`
